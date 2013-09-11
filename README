@@ -1,1 +1,23 @@
-This file was created by IntelliJ IDEA 12.0 for binding GitHub repository
+#Required Software
+===================
+1. Java 1.6 or higher (1.7 recommended)
+2. Maven 2 or higher
+3. Intellij Idea or Eclipse
+
+#How to Build
+===============
+mvn clean install
+
+#How to run
+============
+1. Open Project in Intellij idea or eclipse
+2. Open /mail.properties file in resource folder.
+3. Add your personal email to `mail.username` and email password to `mail.password`.
+4. Add from email address to `mail.from.address` (Use your email address to test)
+5. Add to email address to `mail.to.address` (Use your email address to test)
+6. Open TestApp.java (This contains test class for sending mail) and run main method
+
+#Technologies Used
+==================
+1. akka
+2. javax mail api
