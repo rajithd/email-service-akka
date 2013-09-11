@@ -1,0 +1,22 @@
+# Compiled source #
+###################
+*.class
+*.exe
+*.so
+
+# Idea Project Files #
+######################
+*.iml
+*.iws
+.idea
+
+# Eclipse Project Files #
+#########################
+.classpath
+.project
+.settings/**/*
+.metadata/**/*
+
+# Target folder #
+#################
+target/**/*
