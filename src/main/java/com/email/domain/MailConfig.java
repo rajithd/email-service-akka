@@ -3,6 +3,7 @@ package com.email.domain;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
+import scala.concurrent.duration.FiniteDuration;
 
 /**
  * @author rajith
@@ -17,6 +18,7 @@ final public class MailConfig {
     public static String smtpPort;
     public static String fromAddress;
     public static String toAddress;
+    public static FiniteDuration retryOn;
 
     public static void loadConfigurations() throws IOException {
         InputStream resource = MailConfig.class.getClassLoader().getResourceAsStream("mail.properties");
